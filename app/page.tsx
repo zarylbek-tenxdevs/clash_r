@@ -13,7 +13,8 @@ type RoomPublic = {
 };
 
 const API_BASE =
-  process.env.NEXT_PUBLIC_API_BASE || "https://zarylbek.pythonanywhere.com";
+  process.env.NEXT_PUBLIC_API_BASE ||
+  "https://clostridian-nonconvergent-dominick.ngrok-free.dev";
 //
 export default function Home() {
   const [name, setName] = useState("");
